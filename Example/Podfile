@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TemplateProject_Example' do
+  pod 'TemplateProject', :path => '../'
+
+  target 'TemplateProject_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
