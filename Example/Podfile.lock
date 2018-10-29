@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - TemplateProject (0.1.1)
+  - TemplateProject (0.1.3):
+    - TemplateProject/Core (= 0.1.3)
+  - TemplateProject/Core (0.1.3)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
@@ -20,7 +22,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TemplateProject: 4d74fd704ece586ece62aadc844fe8860d0b7cb7
+  TemplateProject: c0bf4a4b62756d5a3a7d0e31544365dec4581ec6
 
 PODFILE CHECKSUM: 8830de1c89c2b2a9162f69bf4cccacf61c92cf68
 

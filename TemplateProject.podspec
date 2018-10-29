@@ -30,7 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TemplateProject/Classes/**/*'
+#s.source_files = 'TemplateProject/Classes/**/*'
+s.default_subspecs = 'Core'
+
+    s.subspec 'Core' do |ss|
+        ss.source_files         = 'TemplateProject/Classes/*.{swift}', 'TemplateProject/Classes/RemoteConfig/*.{swift}'
+        ss.public_header_files  = 'TemplateProject/Classes/RemoteConfig/*.{swift}'
+    end
   
   # s.resource_bundles = {
   #   'TemplateProject' => ['TemplateProject/Assets/*.png']

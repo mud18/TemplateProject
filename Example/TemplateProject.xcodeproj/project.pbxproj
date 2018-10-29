@@ -46,6 +46,7 @@
 		8C8C728022C4F6A635518E74 /* TemplateProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TemplateProject.podspec; path = ../TemplateProject.podspec; sourceTree = "<group>"; };
 		B6D090FE4F99099BB1656509 /* Pods-TemplateProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateProject_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateProject_Example/Pods-TemplateProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD7FF129C2F05BDF0014CFBF /* Pods-TemplateProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateProject_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TemplateProject_Tests/Pods-TemplateProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E84EDDF52187299C00F13436 /* TemplateProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TemplateProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4C036741DF7D24BE3080E5 /* Pods_TemplateProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TemplateProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -142,6 +143,7 @@
 		6DE55015CE49C1DFACD44B17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E84EDDF52187299C00F13436 /* TemplateProject.framework */,
 				EC4C036741DF7D24BE3080E5 /* Pods_TemplateProject_Example.framework */,
 				0E6DBC545721293B18079105 /* Pods_TemplateProject_Tests.framework */,
 			);
