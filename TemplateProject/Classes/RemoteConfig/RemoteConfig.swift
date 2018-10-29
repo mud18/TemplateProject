@@ -8,6 +8,10 @@
 import Foundation
 
 public class RemoteConfig{
-    var id: String = "id"
-    static identifier: String = "identifier"
+    public var id = "id"
+    public static let identifier = "identifier"
+    
+    public func config(){
+        print("I am inside config")
+    }
 }
