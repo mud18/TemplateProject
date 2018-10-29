@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TemplateProject'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'TemplateProject for testing iOS library integration via private pods to help me integrate control'
 
 # This description is used to generate tags and improve search results.
