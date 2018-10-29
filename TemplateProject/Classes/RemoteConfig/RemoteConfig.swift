@@ -7,4 +7,7 @@
 
 import Foundation
 
-class RemoteConfig{}
+public class RemoteConfig{
+    var id: String = "id"
+    static identifier: String = "identifier"
+}
